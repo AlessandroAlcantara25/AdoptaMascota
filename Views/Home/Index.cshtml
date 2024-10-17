@@ -1,0 +1,45 @@
+﻿<style>
+    .logo-gato {
+        width: 350px;
+        height: 250px;
+        margin-right: 25px;
+    }
+
+    .logo-perro {
+        width: 350px;
+        height: 250px;
+        margin-right: 25px;
+    }
+
+    .logo-comida {
+        width: 350px;
+        height: 250px;
+    }
+
+    .contenedor {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        }
+     
+    
+</style>
+
+<div class="text-center" style="background-color:azure">
+    <h1 class="display-4">Todo sobre AdoptaPet</h1>
+    <p>Descubre lo nuevo que tenemos para ti..!</p>
+    <p>
+        La adopción es una alternativa que a la hora de adquirir un animal de compañía beneficia a todos: a la familia, a las entidades de protección animal y, por supuesto, al propio perro o gato. Los adoptantes han manifestado que su motivo principal para hacerlo fue su sensibilización con el problema (38%) y para colaborar con la protectora (23%). También se han decidido a adoptar por recomendaciones, porque es una vía más económica y porque los animales están en mejores condiciones (12% para cada una de estas razones)
+
+        Pero la adopción en España no es una opción mayoritaria a la hora de adquirir una mascota, por lo que su promoción es una estrategia fundamental para reducir la población de animales abandonados. Solo el 44% de los animales recogidos son adoptados, y una parte de ellos son adoptados por familias de otros países, lo que indica que España es deficitaria en cuanto a la adopción de animales de compañía, porque no compensa el número de abandonos y porque parte de estas adopciones son gestionadas fuera de nuestro país.
+
+        Al no ser adoptado el perro o gato está condenado a pasar el resto de sus días en un refugio (16%) o en muchos casos a ser sacrificado (12%).
+    </p>
+    <div class="contenedor">
+        <a asp-controller="Gatito" asp-action="ListadoGatitos"> <img class="logo-gato" src="~/Imagenes/gato.jpeg" /></a>
+        <a asp-controller="Perrito" asp-action="ListadoPerritos"><img class="logo-perro" src="~/Imagenes/Perro.jpg" /></a>
+        <a asp-controller="Comida" asp-action="ListadoComidas"><img class="logo-comida" src="~/Imagenes/Comida.jpg" /></a>
+    </div>
+</div>
+

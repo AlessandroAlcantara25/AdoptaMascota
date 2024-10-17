@@ -1,0 +1,58 @@
+﻿@model AdoptaMascota.Models.Comida
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+
+
+<h4 style="text-align:center">Agregar Comida </h4>
+<hr />
+<div class="row">
+    <div class="background">
+    <div class="col-md-4">
+        <div class="form-container">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="nombre" class="control-label"></label>
+                    <input asp-for="nombre" class="form-control" />
+                    <span asp-validation-for="nombre" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="tipoComida" class="control-label"></label>
+                    <input asp-for="tipoComida" class="form-control" />
+                    <span asp-validation-for="tipoComida" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="descuento" class="control-label"></label>
+                    <input asp-for="descuento" class="form-control" />
+                    <span asp-validation-for="descuento" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="animal" class="control-label"></label>
+                    <input asp-for="animal" class="form-control" />
+                    <span asp-validation-for="animal" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="precio" class="control-label"></label>
+                    <input asp-for="precio" class="form-control" />
+                    <span asp-validation-for="precio" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListadoComidas" asp-controller="Comida" class="btn btn-danger">Regresar al listado de Comidas</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

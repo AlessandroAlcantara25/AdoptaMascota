@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="~/css/Estilos.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap-grid.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap-grid.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap-reboot.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap-reboot.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="~/Imagenes/adoptarlogo.jpg" />
+        <nav>
+            <div class="menu">
+                <a asp-controller="Home" asp-action="Index" class="menu-item">Inicio</a>
+                <a asp-controller="Gatito" asp-action="ListadoGatitos" class="menu-item">Gatitos en adopcion</a>
+                <a asp-controller="Perrito" asp-action="ListadoPerritos" class="menu-item">Perritos en adopcion</a>
+                <a asp-controller="Comida" asp-action="ListadoComidas" class="menu-item">Comida para perro o gato</a>
+                <a asp-controller="Comida" asp-action="Index" class="menu-item">Descuento segun Cantidad</a>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="footer-rs"">
+            AdoptaPet S.A.C<br />
+            Jr. trujillo 359 Rimac <br />
+            telefono :933158814<br />
+            e-mail :adoptapet@adoptapet.com<br />
+        </div>
+        <div class="footer-rs">
+            <img src="~/Imagenes/facebook.jpg" class="rs" />
+            <img src="~/Imagenes/twitter.jpeg" class="rs" />
+            <img src="~/Imagenes/youtube.jpg" class="rs" />
+            <img src="~/Imagenes/whatsapp.jpeg" class="rs" />
+        </div>
+    </footer>
+    @RenderSection("scripts",required:false);
+</body>
+</html>

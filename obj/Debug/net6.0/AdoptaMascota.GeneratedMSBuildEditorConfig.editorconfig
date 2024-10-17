@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AdoptaMascota
+build_property.RootNamespace = AdoptaMascota
+build_property.ProjectDir = C:\Users\aless\OneDrive\Escritorio\proyectos github\Proyecto_ServiciosWeb_Alessandro-Alcantara\AdoptaMascota\AdoptaMascota\AdoptaMascota\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\aless\OneDrive\Escritorio\proyectos github\Proyecto_ServiciosWeb_Alessandro-Alcantara\AdoptaMascota\AdoptaMascota\AdoptaMascota
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/CalcuComida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXENhbGN1Q29taWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/ListadoComidas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXExpc3RhZG9Db21pZGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Comida/Listadocshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWRhXExpc3RhZG9jc2h0bWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Gatito/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0aXRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Gatito/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0aXRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Gatito/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0aXRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Gatito/Listado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0aXRvXExpc3RhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Gatito/ListadoGatitos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2F0aXRvXExpc3RhZG9HYXRpdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Perrito/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVycml0b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Perrito/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVycml0b1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Perrito/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVycml0b1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Perrito/Listado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVycml0b1xMaXN0YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Perrito/ListadoPerritos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVycml0b1xMaXN0YWRvUGVycml0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Shared/_LayoutMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aless/OneDrive/Escritorio/proyectos github/Proyecto_ServiciosWeb_Alessandro-Alcantara/AdoptaMascota/AdoptaMascota/AdoptaMascota/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-slem8jhl77

@@ -1,0 +1,104 @@
+﻿@model AdoptaMascota.Models.Comida;
+@{
+    ViewBag.Title = "Calcular";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+<h1 style="text-align:center">
+    Averigüe su precio total según nuestros descuentos
+</h1>
+<div class="background">
+<div class="row justify-content-center">
+    
+    <div class="col-md-4">
+        <div class="form-container">
+            <form asp-action="CalcuComida" asp-controller="Comida">
+                <p>
+                    <u>
+                        <strong>
+                            Ten en cuenta que para que se aplique el descuento la cantidad
+                            debe ser mayor o igual a 10
+                        </strong>
+                    </u>
+                </p>
+                <p>
+                    <label>Ingrese la Comida que desea comprar</label>
+                    <input asp-for="nombre" class="form-control" style="text-align:center" />
+                </p>
+                <p>
+                    <label>Ingrese la Cantidad</label>
+                    <input asp-for="cantidad" class="form-control" style="text-align:center" />
+                </p>
+                <p>
+                    <label>Ingrese el descuento según la cantidad</label>
+                    <input asp-for="descuento" class="form-control" style="text-align:center" />
+                </p>
+                <p>
+                    <label>Ingrese el precio de la comida</label>
+                    <input asp-for="precio" class="form-control" style="text-align:center" />
+                </p>
+                <br />
+                <button type="submit" class="btn btn-primary" >Calcular</button>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("form").submit(function (event) {
+                event.preventDefault(); // Evita el envío del formulario por defecto
+
+                var cantidad = parseInt($("#cantidad").val()); // Obtenemos el valor de cantidad
+
+                // Verificamos si la cantidad es mayor que 10
+                if (cantidad <10) {
+                    // Mostramos el mensaje de error con dos botones
+                    Swal.fire({
+                        title: "Error",
+                        text: "No cumple con el requerimiento propuesto. Su cantidad es menor a 10.",
+                        icon: "error",
+                        showCancelButton: true,
+                        confirmButtonText: "Volver al listado",
+                        cancelButtonText: "Volver a ingresar"
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            // Si acepta, redirigimos al listado
+                            window.location.href = "/Comida/ListadoComidas";
+                        } else if (result.dismiss === Swal.DismissReason.cancel) {
+                            // Si decide volver a ingresar, no hacemos nada
+                        }
+                    });
+                } else {
+                    // Si la cantidad es válida, enviamos el formulario
+                    $(this).unbind('submit').submit();
+                }
+            });
+        });
+    </script>
+}
+
+<style>
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+        .form-container form {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+            .form-container form p {
+                text-align: center;
+            }
+</style>

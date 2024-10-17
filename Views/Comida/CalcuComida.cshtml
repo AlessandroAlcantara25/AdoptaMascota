@@ -1,0 +1,28 @@
+﻿@model AdoptaMascota.Models.Comida
+@{
+    ViewBag.Title = "Calcular";
+    Layout = "~/Views/Shared/_LayoutMaster.cshtml";
+}
+
+<h1 style="text-align:center">
+    Resultado total de tu descuento aplicado 😈 
+</h1>
+<br />
+
+<div class="row justify-content-center" style="background-color:aqua">
+    <div class="cod-md-4">
+
+        <h2 style="text-align:center">
+            Respuesta:
+        </h2>
+        <h2 style="text-align:center">
+            Por la cantidad de @Model.cantidad @Model.nombre el precio es S/@Model.precio
+        </h2>
+        <h2 style="text-align:center">
+            aplicando el @Model.descuento% para este producto su PRECIO TOTAL es de S/@Model.total
+        </h2>
+    </div>
+    </div>
+    <a asp-controller="Comida" asp-action="ListadoComidas" class="menu-item">Regresar al Listado</a>
+
+
